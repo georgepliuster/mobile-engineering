@@ -9,7 +9,7 @@ Basically, when the app starts an asyncrequest is make to retrieve a JSON docume
 Other notes:
 1. The sample row showed a 'livingsocial.com' label.  I wasn't sure if this was to be a link that would launch a web browser.
 2. Related to this label, I removed all text before and after the pattern 'livingsocial.com'.  This approach assumes the href in the JSON record had the pattern 'http://www.somenamehere.com/otherqualifiers'.  For this exercise (I looked at the JSON document) before coding) I could get away with this, but I would not use this in production.
-3. I ran my tests using the simulator and there was about a 1 - 2 second lag before the table displayed.  A clever Default image might make a good distraction for a few seconds.
+3. I ran my tests using the simulator and there was about a 1 - 2 second lag before the table displayed.  A clever Default image might make a good distraction for a few seconds. 
 
 Thank you,
 George
