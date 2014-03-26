@@ -1,0 +1,15 @@
+Project: MobileEng
+History: 25mar14 - genesis
+Description: 
+
+This is a test app to be submitted as part of the LivingSocial interview process.  It was build for the iPhone Retina (3.5 inch) device. XCode 5.1 was used in the development process.
+
+Basically, when the app starts an asyncrequest is make to retrieve a JSON document.  This document is then parsed to extract the needed information to retrieve the required images for each entry.  Since there were only ten records in the JSON document, I took some liberty in my approach to downloading the images for each of the entries.  In the REAL WORLD, one may have several dozen records to download.  In this case, I would download the 'first screens worth' and have the remaining images downloaded in the background using GCD.
+
+Other notes:
+1. The sample row showed a 'livingsocial.com' label.  I wasn't sure if this was to be a link that would launch a web browser.
+2. Related to this label, I removed all text before and after the pattern 'livingsocial.com'.  This approach assumes the href in the JSON record had the pattern 'http://www.somenamehere.com/otherqualifiers'.  For this exercise (I looked at the JSON document) before coding) I could get away with this, but I would not use this in production.
+3. I ran my tests using the simulator and there was about a 1 - 2 second lag before the table displayed.  A clever Default image might make a good distraction for a few seconds.
+
+Thank you,
+George

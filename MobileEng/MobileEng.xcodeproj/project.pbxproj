@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB952C5418E23F19009FE233 /* MEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EB952C5318E23F19009FE233 /* MEResponse.m */; };
 		EBB3145618E216EA00FB60EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3145518E216EA00FB60EE /* Foundation.framework */; };
 		EBB3145818E216EA00FB60EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3145718E216EA00FB60EE /* CoreGraphics.framework */; };
 		EBB3145A18E216EA00FB60EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3145918E216EA00FB60EE /* UIKit.framework */; };
@@ -14,13 +15,17 @@
 		EBB3146218E216EA00FB60EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3146118E216EA00FB60EE /* main.m */; };
 		EBB3146618E216EA00FB60EE /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3146518E216EA00FB60EE /* MEAppDelegate.m */; };
 		EBB3146918E216EA00FB60EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB3146718E216EA00FB60EE /* Main.storyboard */; };
-		EBB3146C18E216EA00FB60EE /* MEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3146B18E216EA00FB60EE /* MEViewController.m */; };
 		EBB3146E18E216EA00FB60EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB3146D18E216EA00FB60EE /* Images.xcassets */; };
 		EBB3147518E216EB00FB60EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3147418E216EB00FB60EE /* XCTest.framework */; };
 		EBB3147618E216EB00FB60EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3145518E216EA00FB60EE /* Foundation.framework */; };
 		EBB3147718E216EB00FB60EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB3145918E216EA00FB60EE /* UIKit.framework */; };
 		EBB3147F18E216EB00FB60EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBB3147D18E216EB00FB60EE /* InfoPlist.strings */; };
 		EBB3148118E216EB00FB60EE /* MobileEngTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3148018E216EB00FB60EE /* MobileEngTests.m */; };
+		EBB3148C18E21BC700FB60EE /* MEMainTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3148B18E21BC700FB60EE /* MEMainTableTableViewController.m */; };
+		EBB314AE18E21CDF00FB60EE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB314AD18E21CDF00FB60EE /* CFNetwork.framework */; };
+		EBB314B018E21CEE00FB60EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB314AF18E21CEE00FB60EE /* SystemConfiguration.framework */; };
+		EBB314B218E21D0000FB60EE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB314B118E21D0000FB60EE /* MobileCoreServices.framework */; };
+		EBE0C32218E2744A0062F502 /* README in Resources */ = {isa = PBXBuildFile; fileRef = EBE0C32118E2744A0062F502 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB952C5218E23F19009FE233 /* MEResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEResponse.h; sourceTree = "<group>"; };
+		EB952C5318E23F19009FE233 /* MEResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEResponse.m; sourceTree = "<group>"; };
 		EBB3145218E216EA00FB60EE /* MobileEng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileEng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB3145518E216EA00FB60EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBB3145718E216EA00FB60EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +52,18 @@
 		EBB3146418E216EA00FB60EE /* MEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
 		EBB3146518E216EA00FB60EE /* MEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
 		EBB3146818E216EA00FB60EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EBB3146A18E216EA00FB60EE /* MEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEViewController.h; sourceTree = "<group>"; };
-		EBB3146B18E216EA00FB60EE /* MEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEViewController.m; sourceTree = "<group>"; };
 		EBB3146D18E216EA00FB60EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBB3147318E216EB00FB60EE /* MobileEngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileEngTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB3147418E216EB00FB60EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EBB3147C18E216EB00FB60EE /* MobileEngTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileEngTests-Info.plist"; sourceTree = "<group>"; };
 		EBB3147E18E216EB00FB60EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBB3148018E216EB00FB60EE /* MobileEngTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileEngTests.m; sourceTree = "<group>"; };
+		EBB3148A18E21BC700FB60EE /* MEMainTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMainTableTableViewController.h; sourceTree = "<group>"; };
+		EBB3148B18E21BC700FB60EE /* MEMainTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMainTableTableViewController.m; sourceTree = "<group>"; };
+		EBB314AD18E21CDF00FB60EE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EBB314AF18E21CEE00FB60EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EBB314B118E21D0000FB60EE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EBE0C32118E2744A0062F502 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB314B218E21D0000FB60EE /* MobileCoreServices.framework in Frameworks */,
+				EBB314B018E21CEE00FB60EE /* SystemConfiguration.framework in Frameworks */,
+				EBB314AE18E21CDF00FB60EE /* CFNetwork.framework in Frameworks */,
 				EBB3145818E216EA00FB60EE /* CoreGraphics.framework in Frameworks */,
 				EBB3145A18E216EA00FB60EE /* UIKit.framework in Frameworks */,
 				EBB3145618E216EA00FB60EE /* Foundation.framework in Frameworks */,
@@ -101,6 +115,9 @@
 		EBB3145418E216EA00FB60EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBB314B118E21D0000FB60EE /* MobileCoreServices.framework */,
+				EBB314AF18E21CEE00FB60EE /* SystemConfiguration.framework */,
+				EBB314AD18E21CDF00FB60EE /* CFNetwork.framework */,
 				EBB3145518E216EA00FB60EE /* Foundation.framework */,
 				EBB3145718E216EA00FB60EE /* CoreGraphics.framework */,
 				EBB3145918E216EA00FB60EE /* UIKit.framework */,
@@ -115,10 +132,13 @@
 				EBB3146418E216EA00FB60EE /* MEAppDelegate.h */,
 				EBB3146518E216EA00FB60EE /* MEAppDelegate.m */,
 				EBB3146718E216EA00FB60EE /* Main.storyboard */,
-				EBB3146A18E216EA00FB60EE /* MEViewController.h */,
-				EBB3146B18E216EA00FB60EE /* MEViewController.m */,
 				EBB3146D18E216EA00FB60EE /* Images.xcassets */,
 				EBB3145C18E216EA00FB60EE /* Supporting Files */,
+				EBB3148A18E21BC700FB60EE /* MEMainTableTableViewController.h */,
+				EBB3148B18E21BC700FB60EE /* MEMainTableTableViewController.m */,
+				EB952C5218E23F19009FE233 /* MEResponse.h */,
+				EB952C5318E23F19009FE233 /* MEResponse.m */,
+				EBE0C32118E2744A0062F502 /* README */,
 			);
 			path = MobileEng;
 			sourceTree = "<group>";
@@ -229,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE0C32218E2744A0062F502 /* README in Resources */,
 				EBB3146E18E216EA00FB60EE /* Images.xcassets in Resources */,
 				EBB3146018E216EA00FB60EE /* InfoPlist.strings in Resources */,
 				EBB3146918E216EA00FB60EE /* Main.storyboard in Resources */,
@@ -250,8 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB952C5418E23F19009FE233 /* MEResponse.m in Sources */,
 				EBB3146618E216EA00FB60EE /* MEAppDelegate.m in Sources */,
-				EBB3146C18E216EA00FB60EE /* MEViewController.m in Sources */,
+				EBB3148C18E21BC700FB60EE /* MEMainTableTableViewController.m in Sources */,
 				EBB3146218E216EA00FB60EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +479,7 @@
 				EBB3148618E216EB00FB60EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB3148718E216EB00FB60EE /* Build configuration list for PBXNativeTarget "MobileEngTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +488,7 @@
 				EBB3148918E216EB00FB60EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
